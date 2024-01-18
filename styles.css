@@ -1,0 +1,182 @@
+body {
+    background-color: rgb(167, 167, 186);
+    font-family: Arial;
+    text-align: center;
+    display: grid;
+    align-items: center;
+    justify-content: space-between;
+    height: 90vh;
+    justify-content: center;
+    margin: 0px;
+}
+
+.navbarcon{
+    display:flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+.navbar ul{
+    list-style-type: none;
+    background-color: rgb(83, 85, 87);
+    padding: 0px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar a{
+    color: rgb(243, 243, 243);
+    text-decoration: none;
+    padding: 5px;
+    display: block;
+    text-align: center;
+}
+
+.navbar a:hover{
+    background-color: rgb(55, 57, 59);
+}
+
+.navbar li{
+    float: left;
+}
+
+.homesection{
+    margin-bottom: 200px;
+}
+
+.homesection h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    color: rgb(81, 0, 128);
+}
+
+.homeparagraph{
+    display: flex;
+    text-align: center;
+    margin: 0px;
+    justify-content: center;
+}
+
+.homeparagraph p{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    max-width: 600px;
+    margin: 0px;
+    text-align: justify;
+    padding: 10px;
+    justify-content: center;
+}
+
+.aboutsection{
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+.aboutmetext{
+    display: flex;
+    text-align: center;
+    margin: 0px;
+    justify-content: center;
+}
+
+.aboutsection h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    color: rgb(81, 0, 128);
+}
+
+.aboutmetext p{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    max-width: 600px;
+    margin: 0px;
+    text-align: justify;
+    padding: 10px;
+    justify-content: center;
+    
+}
+
+.interestssection{
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+.interesttext{
+    display: flex;
+    text-align: center;
+    margin: 0px;
+    justify-content: center;
+}
+
+.interestssection h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    color: rgb(81, 0, 128);
+}
+
+.interestssection p{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    max-width: 600px;
+    margin: 0px;
+    text-align: justify;
+    padding: 10px;
+    justify-content: center;
+}
+
+.interestssection ol li{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+}
+
+.interestlist{
+    list-style: none;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+}
+.interestlist li{
+    float:left;
+    padding: 5px;
+}
+
+.fifthelement{
+    height: 20vh;
+    width: 20vh;
+}
+
+.computers{
+    height: 20vh;
+    width: 20vh;
+}
+
+.travel{
+    height: 20vh;
+    width: 20vh;
+}
+
+.welcomeimage{
+    height: 50vh;
+    width: 100vh;
+    object-fit: contain;
+    object-position: center;
+    margin: 10px;
+}
+
+
+.aboutmepic {
+    height: 50vh;
+    width: 100vh;
+    object-fit: cover;
+    object-position: center;
+
+}
+
+
+
+footer {
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+
+}
